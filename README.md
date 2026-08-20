@@ -1,5 +1,19 @@
 # Language-Conditioned Expressive Behavior Generation for Social Robots
 
+
+## Background
+
+Social robots need to communicate not only information, but also social intent.
+Facial expressions help robots communicate emotions such as encouragement,
+empathy, and excitement.
+
+However, designing these behaviors manually requires researchers to specify
+individual facial movements for each scenario.
+
+Recent work has explored using large language models to generate more
+context-aware robot behaviors. This project investigates whether LLMs can
+generate expressive behaviors that can be directly executed by a robot face.
+
 ## Overview
 
 Social robots communicate using both speech and nonverbal behaviors. However, many robot facial expressions are manually designed, making it difficult for robots to generate context-aware expressions dynamically.
@@ -60,6 +74,7 @@ Robot Facial Expression
 * Context appropriateness
 * Communication of social intent
 * Expression quality
+* 
 
 ## Future Research Direction
 A longer-term research goal is exploring whether expression representations can transfer across different robot embodiments.
