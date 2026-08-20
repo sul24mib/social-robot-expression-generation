@@ -41,6 +41,21 @@ Current work:
 - Setting up PyLips environment.
 - Developing the LLM-to-expression prototype.
 
+## Timeline
+
+### Phase 1: Setup and Design
+- Literature review
+- PyLips installation
+- Define expression representation
+
+### Phase 2: Prototype Development
+- Implement LLM expression generation
+- Connect output to PyLips
+
+### Phase 3: Evaluation
+- Create test scenarios
+- Compare against baseline methods
+- Analyze results
 
 ### LLM-Based Robot Expression Generation
 
@@ -48,12 +63,6 @@ Recent work has shown that language models can generate context-aware
 robot behaviors by reasoning about conversational situations.
 
 This project builds on this idea by exploring an LLM-to-expression pipeline.
-
-## Overview
-
-Social robots communicate using both speech and nonverbal behaviors. However, many robot facial expressions are manually designed, making it difficult for robots to generate context-aware expressions dynamically.
-
-This project explores using large language models (LLMs) to generate expressive robot behaviors from conversational context.
 
 ## Research Question
 
