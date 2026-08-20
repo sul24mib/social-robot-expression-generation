@@ -15,6 +15,7 @@ Can a language model generate context-appropriate facial expressions
 for a social robot?
 
 ## Proposed System
+```text
 Conversation Context
         │
         ▼
@@ -28,7 +29,6 @@ Expression Representation
         │
         ▼
 Robot Facial Expression
-
 
 ## Example
 
