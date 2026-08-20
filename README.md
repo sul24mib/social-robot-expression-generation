@@ -1,7 +1,7 @@
 # Language-Conditioned Expressive Behavior Generation for Social Robots
 
 
-## Background
+##Background
 
 Social robots need to communicate not only information, but also social intent.
 Facial expressions help robots communicate emotions such as encouragement,
@@ -13,6 +13,29 @@ individual facial movements for each scenario.
 Recent work has explored using large language models to generate more
 context-aware robot behaviors. This project investigates whether LLMs can
 generate expressive behaviors that can be directly executed by a robot face.
+
+
+## Related Work
+
+### PyLips
+
+PyLips is an open-source platform for creating expressive robot faces.
+It allows researchers to control facial behaviors through programmable
+interfaces.
+
+This project uses PyLips as the target platform for rendering generated
+expressions.
+
+Link:
+https://pylips.readthedocs.io/
+
+
+### LLM-Based Robot Expression Generation
+
+Recent work has shown that language models can generate context-aware
+robot behaviors by reasoning about conversational situations.
+
+This project builds on this idea by exploring an LLM-to-expression pipeline.
 
 ## Overview
 
