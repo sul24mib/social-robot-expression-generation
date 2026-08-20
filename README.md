@@ -1,5 +1,20 @@
 # Language-Conditioned Expressive Behavior Generation for Social Robots
 
+## Project Scope
+
+The focus of this IQP is to develop and evaluate a prototype system that
+converts conversational context into expressive robot facial behaviors.
+
+The project will focus on:
+
+- Generating facial expression parameters using an LLM.
+- Defining an interpretable expression representation.
+- Rendering generated expressions using PyLips.
+- Evaluating whether generated expressions communicate the intended social meaning.
+
+The project will not attempt to solve general robot embodiment transfer or
+human facial expression imitation within the IQP timeframe.
+
 
 ## Background
 
