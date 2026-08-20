@@ -29,6 +29,18 @@ expressions.
 Link:
 https://pylips.readthedocs.io/
 
+## Current Status
+
+Completed:
+- Initial literature review on social robot expression generation.
+- Identified PyLips as the target expressive robot platform.
+- Defined an initial architecture for language-conditioned expression generation.
+- Designed an initial expression representation.
+
+Current work:
+- Setting up PyLips environment.
+- Developing the LLM-to-expression prototype.
+
 
 ### LLM-Based Robot Expression Generation
 
