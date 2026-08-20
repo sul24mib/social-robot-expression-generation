@@ -15,3 +15,9 @@ Can a language model generate context-appropriate facial expressions
 for a social robot?
 
 ## Proposed System
+```mermaid
+flowchart TD
+    A[Conversation Context] --> B[LLM]
+    B --> C[Expression Representation]
+    C --> D[PyLips]
+    D --> E[Robot Facial Expression]
