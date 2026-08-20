@@ -1,7 +1,7 @@
 # Language-Conditioned Expressive Behavior Generation for Social Robots
 
 
-##Background
+## Background
 
 Social robots need to communicate not only information, but also social intent.
 Facial expressions help robots communicate emotions such as encouragement,
