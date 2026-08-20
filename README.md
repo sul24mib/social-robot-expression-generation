@@ -15,9 +15,37 @@ Can a language model generate context-appropriate facial expressions
 for a social robot?
 
 ## Proposed System
-```mermaid
-flowchart TD
-    A[Conversation Context] --> B[LLM]
-    B --> C[Expression Representation]
-    C --> D[PyLips]
-    D --> E[Robot Facial Expression]
+Conversation Context
+        │
+        ▼
+       LLM
+        │
+        ▼
+Expression Representation
+        │
+        ▼
+      PyLips
+        │
+        ▼
+Robot Facial Expression
+
+
+## Example
+
+Input:
+
+"The user successfully completed a difficult rehabilitation exercise."
+
+Robot response:
+
+"Great job! You did it!"
+
+Generated expression:
+
+```json
+{
+ "intent": "encouragement",
+ "smile": 0.8,
+ "eyebrow_raise": 0.3,
+ "duration": 2.0
+}
